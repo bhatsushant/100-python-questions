@@ -11,7 +11,7 @@ def squarelist_1(n):
 print(squarelist_1(20))
 
 def squarelist_2(n):
-    square = [i ** 2 for i in range(0, n+1)]
+    square = [i ** 2 for i in range(1, n+1)]
     return square
 
 print(squarelist_2(40))

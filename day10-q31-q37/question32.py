@@ -11,7 +11,7 @@ print(squaredict_1(20))
 
 # Method 2 - using dictionary comprehension
 def squaredict_2(n):
-    square = {i:i ** 2 for i in range(0, n+1)}
+    square = {i:i ** 2 for i in range(1, n+1)}
     return square.keys()
 
 print(squaredict_2(40))
