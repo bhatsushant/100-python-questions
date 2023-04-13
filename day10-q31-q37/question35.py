@@ -6,7 +6,7 @@ def squarelist_1(n):
     for i in range(1, n+1):
         square.append(i ** 2)
     for i in range(n, n-5, -1):
-        print(i)
+        print(square[i])
 
 print(squarelist_1(20))
 
